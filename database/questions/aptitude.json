@@ -1,0 +1,130 @@
+{
+    "profit-loss": [
+
+        {
+            "id": 1,
+            "question": "A man buys an article for ₹800 and sells it at 20% profit. Selling price?",
+            "difficulty":"easy",
+            "options": ["900", "920", "960", "1000"],
+            "answer": "960",
+            "explanation": "20% of 800 = 160. Selling Price = 800 + 160 = 960"
+        },
+
+        {
+            "id": 2,
+            "question": "A shopkeeper gives 10% discount on ₹500 article. Final price?",
+            "options": ["450", "475", "400", "425"],
+            "answer": "450",
+            "explanation": "10% of 500 = 50. Final price = 500 - 50 = 450"
+        },
+
+        {
+            "id": 3,
+            "question": "A product marked ₹1200 is sold at 15% discount. Selling price?",
+            "options": ["1020", "1000", "1100", "980"],
+            "answer": "1020",
+            "explanation": "15% of 1200 = 180. 1200 - 180 = 1020"
+        }
+
+    ],
+
+
+    "time-work": [
+
+        {
+            "id": 4,
+            "question": "Pipe A fills tank in 20 hrs and Pipe B in 30 hrs. Together?",
+            "options": ["10 hrs", "12 hrs", "15 hrs", "18 hrs"],
+            "answer": "12 hrs",
+            "explanation": "1/20 + 1/30 = 5/60 = 1/12"
+        },
+
+        {
+            "id": 5,
+            "question": "15 men complete work in 12 days. Men needed in 6 days?",
+            "options": ["20", "25", "30", "35"],
+            "answer": "30",
+            "explanation": "Work = Men × Days"
+        },
+
+        {
+            "id": 6,
+            "question": "A alone completes work in 10 days. B alone in 15 days. Together?",
+            "options": ["5 days", "6 days", "7 days", "8 days"],
+            "answer": "6 days",
+            "explanation": "1/10 + 1/15 = 1/6"
+        }
+
+    ],
+
+
+    "number-series": [
+
+        {
+            "id": 7,
+            "question": "Find next number: 3, 9, 27, 81, ?",
+            "options": ["162", "243", "324", "729"],
+            "answer": "243",
+            "explanation": "Each number multiplied by 3"
+        },
+
+        {
+            "id": 8,
+            "question": "2, 6, 12, 20, 30, ?",
+            "options": ["36", "40", "42", "56"],
+            "answer": "42",
+            "explanation": "Pattern: n(n+1)"
+        },
+
+        {
+            "id": 9,
+            "question": "5, 10, 17, 26, 37, ?",
+            "options": ["48", "50", "52", "54"],
+            "answer": "50",
+            "explanation": "Differences: 5,7,9,11,13"
+        }
+
+    ],
+
+
+    "probability": [
+
+        {
+            "id": 10,
+            "question": "Probability of getting a prime number on rolling a dice?",
+            "options": ["1/2", "1/3", "2/3", "5/6"],
+            "answer": "1/2",
+            "explanation": "Prime numbers: 2,3,5"
+        },
+
+        {
+            "id": 11,
+            "question": "A coin tossed twice. Probability of getting two heads?",
+            "options": ["1/4", "1/2", "3/4", "1"],
+            "answer": "1/4",
+            "explanation": "HH only"
+        }
+
+    ],
+
+
+    "averages": [
+
+        {
+            "id": 12,
+            "question": "Average of first 20 natural numbers?",
+            "options": ["10", "10.5", "11", "11.5"],
+            "answer": "10.5",
+            "explanation": "Sum = n(n+1)/2"
+        },
+
+        {
+            "id": 13,
+            "question": "Average of 10,20,30,40,50?",
+            "options": ["20", "25", "30", "35"],
+            "answer": "30",
+            "explanation": "Sum/Count = 150/5"
+        }
+
+    ]
+}
