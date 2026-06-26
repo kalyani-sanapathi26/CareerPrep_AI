@@ -117,3 +117,208 @@ button:hover{
 
     font-size: 14px;
 }
+
+.single-link{
+    justify-content: center;
+}
+
+.welcome-body{
+    min-height: 100vh;
+    height: auto;
+    align-items: stretch;
+    background: linear-gradient(135deg, #0f172a 0%, #182033 46%, #12343b 100%);
+    color: white;
+}
+
+.welcome-page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+}
+
+.welcome-hero{
+    width: min(1120px, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.welcome-copy h1{
+    font-size: clamp(42px, 6vw, 76px);
+    line-height: 1.02;
+    margin-bottom: 22px;
+}
+
+.welcome-copy p{
+    max-width: 620px;
+    color: #dbeafe;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.welcome-tag{
+    color: #67e8f9 !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.welcome-actions{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+
+.welcome-actions a{
+    text-decoration: none;
+    padding: 15px 24px;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: #06111f;
+    font-weight: 700;
+}
+
+.welcome-actions .secondary-action{
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.35);
+}
+
+.study-scene{
+    min-height: 520px;
+    position: relative;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.14);
+    overflow: hidden;
+}
+
+.computer{
+    position: absolute;
+    width: 62%;
+    left: 19%;
+    top: 70px;
+}
+
+.screen{
+    height: 235px;
+    border-radius: 8px;
+    background: linear-gradient(160deg, #0ea5e9, #172554 72%);
+    border: 12px solid #0b1220;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+    padding: 34px;
+}
+
+.screen span{
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.screen-line{
+    height: 12px;
+    width: 72%;
+    background: rgba(255,255,255,0.55);
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+
+.screen-line.wide{
+    width: 92%;
+}
+
+.screen-line.short{
+    width: 45%;
+}
+
+.stand{
+    width: 54px;
+    height: 72px;
+    background: #94a3b8;
+    margin: 0 auto;
+}
+
+.base{
+    width: 190px;
+    height: 22px;
+    background: #cbd5e1;
+    border-radius: 999px;
+    margin: 0 auto;
+}
+
+.book-stack{
+    position: absolute;
+    left: 44px;
+    bottom: 62px;
+    width: 230px;
+}
+
+.book{
+    height: 46px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    box-shadow: 0 16px 28px rgba(0,0,0,0.25);
+}
+
+.book-one{
+    background: #ef4444;
+    width: 210px;
+}
+
+.book-two{
+    background: #22c55e;
+    width: 250px;
+}
+
+.book-three{
+    background: #f59e0b;
+    width: 225px;
+}
+
+.pen{
+    position: absolute;
+    width: 16px;
+    height: 170px;
+    border-radius: 999px;
+    transform: rotate(56deg);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
+
+.pen-one{
+    right: 92px;
+    bottom: 90px;
+    background: linear-gradient(#f8fafc 0 18%, #0ea5e9 18% 78%, #facc15 78%);
+}
+
+.pen-two{
+    right: 148px;
+    bottom: 52px;
+    background: linear-gradient(#f8fafc 0 18%, #ec4899 18% 78%, #facc15 78%);
+}
+
+@media(max-width: 820px){
+    .welcome-hero{
+        grid-template-columns: 1fr;
+    }
+
+    .study-scene{
+        min-height: 420px;
+    }
+
+    .computer{
+        width: 76%;
+        left: 12%;
+    }
+}

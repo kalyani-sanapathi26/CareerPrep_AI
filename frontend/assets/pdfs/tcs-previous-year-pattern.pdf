@@ -1,0 +1,115 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2051 >>
+stream
+BT
+/F2 22 Tf
+72 735 Td
+(TCS Previous-Year Pattern Practice PDF) Tj
+/F1 11 Tf
+0 -28 Td
+/F2 14 Tf
+(About this PDF) Tj
+/F1 11 Tf
+0 -18 Td
+(This is an original CareerPrep AI practice PDF based on common TCS fresher) Tj
+0 -15 Td
+(assessment patterns. It is not an official or copied previous-year paper.) Tj
+0 -15 Td
+0 -14 Td
+/F2 14 Tf
+(Common TCS Fresher Rounds) Tj
+/F1 11 Tf
+0 -18 Td
+(1. Online aptitude and verbal ability test) Tj
+0 -15 Td
+(2. Programming logic or coding section) Tj
+0 -15 Td
+(3. Technical interview covering project, OOPs, DBMS, SQL, OS, CN, and programming) Tj
+0 -15 Td
+(basics) Tj
+0 -15 Td
+(4. HR interview covering communication, relocation, strengths, goals, and) Tj
+0 -15 Td
+(confidence) Tj
+0 -15 Td
+0 -14 Td
+/F2 14 Tf
+(Sample Aptitude Questions) Tj
+/F1 11 Tf
+0 -18 Td
+(1. A number is increased by 20 percent and then decreased by 20 percent. What is) Tj
+0 -15 Td
+(the net percentage change?) Tj
+0 -15 Td
+(2. If 6 people complete a task in 12 days, how many days will 8 people take at the) Tj
+0 -15 Td
+(same rate?) Tj
+0 -15 Td
+(3. Find the next number in the series: 3, 8, 15, 24, 35, ?) Tj
+0 -15 Td
+(4. A train crosses a pole in 12 seconds at 60 km/hr. Find the length of the train.) Tj
+0 -15 Td
+0 -14 Td
+/F2 14 Tf
+(Sample Coding Practice) Tj
+/F1 11 Tf
+0 -18 Td
+(1. Write a program to reverse a string without using built-in reverse methods.) Tj
+0 -15 Td
+(2. Write a program to count vowels and consonants in a sentence.) Tj
+0 -15 Td
+(3. Given an array, find the second largest element.) Tj
+0 -15 Td
+(4. Check whether a number is prime.) Tj
+0 -15 Td
+0 -14 Td
+/F2 14 Tf
+(Technical Topics To Revise) Tj
+/F1 11 Tf
+0 -18 Td
+(OOPs concepts, DBMS normalization, SQL joins, operating system basics, computer) Tj
+0 -15 Td
+(network layers, arrays, strings, loops, functions, and resume project explanation.) Tj
+0 -15 Td
+0 -14 Td
+/F2 14 Tf
+(Preparation Tip) Tj
+/F1 11 Tf
+0 -18 Td
+(Practice with a timer, maintain an error notebook, and explain every solved coding) Tj
+0 -15 Td
+(question aloud as if you are in an interview.) Tj
+0 -15 Td
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2499
+%%EOF

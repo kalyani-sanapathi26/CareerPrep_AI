@@ -1,42 +1,82 @@
 from fastapi import APIRouter
-import json
+import sqlite3
 
 router = APIRouter()
 
-
-with open(
-    "../database/questions/aptitude.json",
-    "r"
-) as file:
-
-    questions_db = json.load(file)
+DATABASE = "database/careerprep.db"
 
 
-# Get Topics
+def get_connection():
+    conn = sqlite3.connect(DATABASE)
+    conn.row_factory = sqlite3.Row
+    return conn
 
+
+# Get all topics
 @router.get("/topics")
 def get_topics():
 
-    return list(questions_db.keys())
+    conn = get_connection()
+
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT DISTINCT topic FROM questions")
+
+    topics = cursor.fetchall()
+
+    conn.close()
+
+    return [row["topic"] for row in topics]
 
 
-# Get Questions by Topic + Difficulty
-
+# Get questions by topic and difficulty
 @router.get("/questions/{topic}/{difficulty}")
 def get_questions(topic: str, difficulty: str):
 
-    questions = questions_db.get(topic, [])
+    conn = get_connection()
 
+    cursor = conn.cursor()
 
-    filtered_questions = [
+    cursor.execute(
+        """
+        SELECT *
+        FROM questions
+        WHERE topic=? AND difficulty=?
+        """,
+        (topic, difficulty)
+    )
 
-        question
+    rows = cursor.fetchall()
 
-        for question in questions
+    conn.close()
 
-        if question["difficulty"] == difficulty
+    questions = []
 
-    ]
+    for row in rows:
 
+        questions.append({
 
-    return filtered_questions
+            "id": row["id"],
+
+            "topic": row["topic"],
+
+            "difficulty": row["difficulty"],
+
+            "question": row["question"],
+
+            "options": [
+
+                row["option1"],
+                row["option2"],
+                row["option3"],
+                row["option4"]
+
+            ],
+
+            "answer": row["answer"],
+
+            "explanation": row["explanation"]
+
+        })
+
+    return questions
