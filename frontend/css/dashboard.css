@@ -512,3 +512,16 @@ a{
     color: #e2e8f0;
     line-height: 1.5;
 }
+
+.pdf-actions{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.secondary-pdf{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.35);
+}
